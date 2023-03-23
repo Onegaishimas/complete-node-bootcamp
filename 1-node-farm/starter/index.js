@@ -1,6 +1,5 @@
 'Use Strict'
 const fs = require('fs');
-let err, data;
 
 const textIn = fs.readFile('./txt/input.txt', 'utf-8', (err, data) => {
     if (err) throw err;
