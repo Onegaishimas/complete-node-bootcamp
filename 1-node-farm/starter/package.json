@@ -1,0 +1,17 @@
+{
+  "name": "nodefarmstarter",
+  "version": "1.0.0",
+  "description": "Udemy Nodejs Course Section 2",
+  "main": "index.js",
+  "scripts": {
+    "startServer": "nodemon index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "slugify": "^1.6.6"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  }
+}
